@@ -215,3 +215,48 @@ footer nav a {
 .container-about-page {
     margin-top: 20px;
 }
+
+
+
+.middle-section-boxes {
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+	
+	margin-top: 20px;
+	border-top: 1px dashed black;
+	
+}
+
+
+
+.middle-section-boxes .mid-box {
+  
+	margin: 10px;
+    display: inline-block;
+    width: 47%;
+    border-bottom: 1px dashed black;
+
+
+    
+}
+
+.middle-section-boxes .mid-box img {
+    margin-bottom: 15px;
+}
+
+button {
+    
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        width: 130px;
+        text-align: center;
+       
+        margin: 20px 0;
+}
+
+.bottom-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
